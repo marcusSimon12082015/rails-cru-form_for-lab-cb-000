@@ -1,5 +1,5 @@
 class Genre < ActiveRecord::Base
-  def to_s 
+  def to_s
     self.name
-  end 
+  end
 end
